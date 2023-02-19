@@ -1,0 +1,124 @@
+<html>
+<head>
+<style>
+body{
+background-color:#FFEBCD;
+}
+.autostyle2{
+color:red;
+font-size:20px;
+text-align:center;
+}
+#button{
+Margin-left:50px;
+}
+</style>
+</head>
+<body bgcolor="#FFEBCD">
+<form action="registration.html">
+<table>
+<tr class="autostyle2">
+<td colspan="4">OrderFoodOnline</td></tr>
+<tr>
+<td width="100%" colspan="4">
+</td>
+</tr>
+<tr>
+<td><label for="name">Name:</label></td>
+<td><input type="text" name="username" placeholder="Enter your name" required></td>
+</tr>
+<tr>
+<td><label for="date">Date:</label></td>
+<td><input type="date" name="date" required></td>
+</tr>
+<tr>
+<td><label for="email">email ID:</label></td>
+<td><input type="email" name= usrmail" placeholder="Enter your email ID" required></td>
+<tr>
+<td><label for="number">Contact Number:</label></td>
+<td><input type="tel" name="usrtel" placeholder="Enter your phone number" required></td>
+</tr>
+<tr><td><label for="food">Select Food:</label></td>
+<td><label for="nonveg">Non-Vegetarian</label>
+<input type="radio" name="food" ID="nonveg">
+<label for="veg">Vegetarian:</label>
+<input type="radio" name="food" ID="veg"></td>
+</tr>
+<tr>
+<td><label for="restro">Select Restaurant:</label></td>
+<td><select>
+<option value="opt1">Select Your Restaurants</option>
+<option value="opt2">La Figa</option>
+<option value="opt3">Benihana</option>
+<option value="opt4">Gallipoli</option>
+<option value="opt5">Kings Road SteakHouse</option>
+</select></td>
+</tr>
+<tr>
+<td><label for="drinks">Drinks:</label></td>
+<td><select>
+<option value="opt6">Select your Drink</option>
+<option value="opt7">Cappuccino</option>
+<option value="opt8">Caffelette</option>
+</select></td>
+</tr>
+<tr>
+<td><label for="soups">Soups:</label></td>
+<td><select>
+<option value="opt9">Select the Soup of Your Choice</option>
+<option value="opt10">Minestrone</option>
+<option value="opt11">Fonduta</option>
+<option value="opt12">Pasta e fagioli</option>
+</select></td>
+</tr>
+<tr>
+<td><label for="dishes">Dishes:</label></td>
+<td><select>
+<option value="opt13">Select the Dishes of Your Choice</option>
+<optgroup label="Italian">
+<option value="opt14">Pasta</option>
+<option value="opt15">Fish</option>
+<option value="opt16">Rice</option>
+</optgroup>
+<optgroup label="Chinese">
+<option value="opt17">Chowmein</option>
+<option value="opt18">Manchurian</option>
+<option value="opt19">Water Chessnut Cake</option>
+</optgroup>
+</select></td>
+</tr>
+<tr>
+<td><label for="order for:">Order For:</label></td>
+<td><label for="pickup">Take Away:</label>
+<input type="radio" name="pickup" ID="pickup">
+<label for="home">Home Delivery:</label>
+<input type="radio" name="pickup" ID="home"></td>
+</tr>
+<tr>
+<td><label for="Orderfor">Address:</label></td>
+<td><textarea rows="3" cols="16" ID="Orderfor">
+Enter Your Address Here
+</textarea></td>
+</tr>
+<tr>
+<td><label for="state">State:</label></td>
+<td><input list="stat" name="stat" ID="state">
+<datalist ID="stat">
+<option value="Alabama">
+<option value="California">
+<option value="Delaware">
+<option value="Florida">
+<option value="Hawaii">
+</datalist>
+</td>
+</tr>
+<tr>
+<td>
+<button ID="button" type="submit"><p>Submit</p></button></td><td>
+<button type="reset"><p>Reset</p></button>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

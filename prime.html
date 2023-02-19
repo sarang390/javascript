@@ -1,0 +1,30 @@
+<html>
+<body>
+<script type="text/javascript">
+var prime="";
+var number=prompt("Please enter number up to 100 to view prime numbers","");
+if(number>100)
+{
+alert("You can't enter number above 100");
+}
+else
+{
+for(i=2;i<=number;i++)
+{
+flag=0;
+for(j=2;j<=i/2;j++)
+{
+if(i%j==0)
+{
+flag=1;
+break;
+}
+}
+if(flag==0)
+prime=prime+ " \n "+i;
+}
+alert("Prime numbers up to "+number+" are:\n"+ prime);
+}
+</script>
+</body>
+</html>
